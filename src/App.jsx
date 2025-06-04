@@ -14,8 +14,13 @@ function App() {
 
   const callAI = () => {
     getResponseForGivenPrompt(userInput);
-    setUserInput('');
+    // setUserInput('');
   };
+
+  const clearAll = () => {
+    setUserInput('');
+    setGenOutput(null);
+  }
 
   const getResponseForGivenPrompt = async (userInput) => {
     try {
@@ -74,12 +79,10 @@ return (
       value={userInput}
       onChange={handleChange}
     />
-    <button
-      className="sub-wid"
-      onClick={callAI}
-    >
-      Get Output
-    </button>
+    <div className='btn-lst'>
+      <button className="sub-wid-btn" onClick={callAI} >Code</button>
+      <button className="sub-wid-btn" onClick={clearAll} >Clear</button>
+    </div>
 
     {genOutput && (
       <div
