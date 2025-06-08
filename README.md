@@ -8,6 +8,7 @@ A smart web application that leverages **Google Gemini** to automatically extrac
 * ✅ Relevant **Medical Terminologies**
 
 **Live Site:** [https://medical-coding-assist.vercel.app/](https://medical-coding-assist.vercel.app/)
+
 **Repository:** [GitHub - Nithinbharathi93/medical-coding-assist](https://github.com/Nithinbharathi93/medical-coding-assist)
 
 > **Note:** This is not an open-source project. The code is private and proprietary.
